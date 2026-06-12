@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+
+.env
+.venv/
+venv/
+
+DataSets/
+data_resnet101/
+outputs_resnet101*/
+*.pt
+*.pth
+
+.pytest_cache/
+.mypy_cache/
