@@ -50,6 +50,9 @@ Start Command: uvicorn main:app --host 0.0.0.0 --port $PORT
 Health Check Path: /health
 ```
 
+Se o Render estiver rodando `uvicorn LabLeafAPI:app`, tambem funciona porque `LabLeafAPI.py`
+aponta para o mesmo `app` de `main.py`. Ainda assim, o comando recomendado e `main:app`.
+
 O arquivo `.pth` tem mais de 100 MB, entao normalmente voce nao deve subir ele direto no GitHub.
 Suba o checkpoint em algum local com URL direta de download e configure no Render:
 
